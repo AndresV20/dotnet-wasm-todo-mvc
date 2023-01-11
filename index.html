@@ -18,10 +18,12 @@
 	<section class="todoapp">
 		<header class="header">
 			<h1>File Converter</h1>
-			<p class="new-todo">Convert Files</p>
 		</header>
-		<input id="docxFile" type="file" placeholder="Give me a docx file" accept=".docx">Docx file</input>
-		<input id="mdFile" type="file" placeholder="Give me a md file" accept=".md">Md file</input>
+		<div id="inputs">
+			<h2>Docx to Md</h2>
+			<input  id="docxFile" type="file" placeholder="Give me a docx file" accept=".docx">Select a docx file</input>
+			<input id="mdFile" type="file" placeholder="Give me a md file" accept=".md">Select a md file</input>
+		</div>
 		<section style="display:none" class="main">
 			<input id="toggle-all" class="toggle-all" type="checkbox">
 			<label for="toggle-all">Mark all as complete</label>
@@ -43,7 +45,7 @@
 			</footer>
 		</section>
 	</section>
-	<p class="todoDebug">Testing</p>
+	<p class="todoDebug"></p>
 
 </body>
 
